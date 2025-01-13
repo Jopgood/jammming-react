@@ -3,7 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: solid rgb(155, 154, 154);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgb(155, 154, 154);
+  width: 100%;
 }
 
 .trackContent {
@@ -11,7 +13,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
+  flex: 1;
+  padding-right: 1rem;
   color: white;
 }
 
