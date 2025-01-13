@@ -1,0 +1,13 @@
+.button {
+  background-color: black;
+  color: white;
+  border-radius: 60px;
+  padding: 10px 30px;
+  opacity: 0.8;
+}
+
+.button:hover {
+  background-color: darkgreen;
+
+  opacity: 0.8;
+}

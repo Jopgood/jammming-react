@@ -22,6 +22,18 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/components/search-container/search-button/search-button.js",
+    "src/components/search-container/search-bar/search-bar.js",
+    "src/components/form/form.js",
+    "src/components/search-results/search-results.js",
+    "src/components/track/track.js",
+    "src/app/page.js",
+    "src/components/tracklist/tracklist.js"
+  ],
   "exclude": ["node_modules"]
 }

@@ -1,0 +1,38 @@
+.track {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid rgb(155, 154, 154);
+}
+
+.trackContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  color: white;
+}
+
+.trackTitle {
+  font-size: large;
+  color: white;
+}
+
+.trackSubtitle {
+  font-size: small;
+  color: rgb(155, 154, 154);
+  margin-bottom: 10px;
+}
+
+.trackIcon {
+  width: 15px;
+  height: 15px;
+  color: white;
+}
+
+.trackIcon:hover {
+  cursor: pointer;
+  color: rgb(134, 134, 134);
+}
